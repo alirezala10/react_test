@@ -1,0 +1,62 @@
+.wrapper {
+    margin: 0px;
+    background-color: #E6E6E6;
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 87vh;
+    }
+
+    .login-form {
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        margin: 0px auto;
+        background: white;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px #00000057;
+
+        .form-row {
+            margin-bottom: 5px;
+        }
+
+        .checkkbox-wrapper {
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        .form-btn {
+            padding: 0px 10px;
+        }
+
+        .mail-validation , .password-validation {
+            color: red;
+            padding-left: 10px;
+        }
+
+        .theme-btn {
+            text-align: right;
+        }
+
+        .title {
+            color:black;
+        }
+
+    } 
+
+}
+
+.notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    background-color: #E6E6E6;
+}
+
+.title {
+    color:black;
+}
